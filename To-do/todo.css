@@ -1,0 +1,127 @@
+.body {
+    background-color: black;
+}
+
+
+.sticker{
+ background-color:  #F4E471;
+ width: 20vw ;
+ height: 40vh;
+ position: relative;
+ left:75vw;
+}
+
+
+.input1{
+    position: relative;
+    top: 30vh;
+    left: 25.5vw ;
+    height: 8vh;
+    border-radius: 1px;
+    border: none;
+    width: 30vw;
+    margin-top: 4vh;
+
+}
+
+.btn {
+    
+    position: relative;
+    top: 30vh;
+    left: 26vw;
+    background-color: #DE0611;
+    color: white;
+    text-align: center;
+    width: 10vw;
+    height: 8vh;
+    border: none;
+    border-radius: 2px;
+}
+
+
+.deletebtn{
+    background-color: #DE0611;
+    border-radius: 1px;
+    color: white;
+    text-align:center ;
+    border: none;
+    margin-left: 8px;
+    height: 20px;
+}
+
+.editbtn{
+    background-color: #DE0611;
+    border-radius: 1px;
+    color: white;
+    text-align: center ;
+    border: none;
+    margin-left: 8px;
+    height: 20px;
+}
+
+
+.sum{
+    background-color: #DE0611;
+    border-radius: 1px;
+    color: white;
+    text-align: center ;
+    border: none;
+    margin-left: 8px;
+    height: 20px;
+}
+.con {
+    position: relative;
+    top: 70vh;
+    left: 25vw;
+}
+
+.jstable{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    width: 18vw;
+    text-align: center;
+
+}
+
+th,td{
+    border: solid 1px #dddd;
+}
+
+#cool {
+    width: 20vw;
+    background-color: rgb(151, 151, 197);
+    border: none;
+    height: 6vh;
+}
+
+
+
+#parent{
+
+    align-items: center;
+    
+    position: relative;
+    top: -60vh;
+    left: 40vw;
+    width: 40vh;
+    color:#fff;
+}
+
+#parent p {
+    display: none;
+}
+#cancel{
+    font-size: 0.8em;
+    position: relative;
+    left: 19vw;
+    display: none;
+    cursor: pointer;
+}
+    
+
+
+
+
+
+
+

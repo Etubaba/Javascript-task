@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+display: flex;
+align-items: center;
+min-height: 100vh;
+margin: 0;
+justify-content: center;
+background-color: #6da0cf;
+font-family: Digital-7;
+
+}
+#countdown {
+    width: 150px;
+    height: 90px;
+    background-color: rgb(48, 42, 42);
+    color: red;
+    text-align: center;
+    border-radius: 10px;
+    left: 120px;
+    font-size: 70px;
+    /* font-family: 'Orbitron', sans-serif; */
+    font-family: myFirstFont;
+    position: relative;
+    top: -180px;
+    border: 8px solid black;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url('/LCD2B___.TTF');
+}
+
+.traffic{
+    width: 90px;
+    height: 240px;
+    background-color: rgb(51, 47, 47);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+.display{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0,0.3);
+}
+
+.display:after {
+    content: '';
+
+    border-right: 4px solid rgba(236, 235, 235, 0.6); 
+    width: 50px;
+    height: 50px;
+    top: 5px;
+    border-radius: 50%;
+    position: absolute;
+
+}
+.display.red{
+    background-color: red;
+    box-shadow:
+     0 0 20px 15px red;
+}
+.display.yellow{
+    background-color: yellow;
+    box-shadow: 0 0 20px 15px yellow;
+
+}
+
+
+.display.green{
+    background-color: green;
+    box-shadow: 0 0 20px 15px green;}
+
+
+.pole {
+    background-color: silver;
+    height: 600px;
+    width: 20px;
+    position: relative;
+    top: 165px;
+    left: -54px;
+    z-index: -1;
+}
+
+.pole:after {
+    content: '';
+    width: 5px;
+    height: 600px;
+    top: 0px;
+    left:20px ;
+    position: absolute;
+    background-color: white;
+
+}
